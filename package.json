@@ -1,0 +1,27 @@
+{
+  "name": "firebase-header-preview",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/attakei-sandbox/firebase-header-preview.git",
+  "author": "Kazuya Takei <myself@attakei.net>",
+  "license": "Apache-2.0",
+  "private": true,
+  "engines": {
+    "node": "12"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/server.js",
+    "deploy": "firebase deploy"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "firebase-tools": "^8.18.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^9.4.1",
+    "firebase-functions": "^3.13.0"
+  }
+}
