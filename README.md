@@ -2,7 +2,8 @@
 
 ## 概要
 
-Firebase Hosting + Cloud Functions/Cloud RUNで、Firebase Hostingから各サービスに渡っいくリクエストヘッダー確認するサンプル。
+Firebase Hosting + Cloud Functions/Cloud RUNで、
+Firebase Hostingから各サービスに渡っていくリクエストヘッダーを確認するサンプル。
 
 ## 環境
 
